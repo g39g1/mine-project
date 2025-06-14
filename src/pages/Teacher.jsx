@@ -4,7 +4,7 @@ import Swal from 'sweetalert2';
 import { FaCheck, FaTimes } from 'react-icons/fa';
 import { useParams } from 'react-router';
 
-function TeacherDashboard() {
+function Teacher() {
   const [students, setStudents] = useState([]);
   const [ideas, setIdeas] = useState([]);
   const { id } = useParams(); 
@@ -124,4 +124,4 @@ function TeacherDashboard() {
   );
 }
 
-export default TeacherDashboard;
+export default Teacher;
